@@ -7,7 +7,7 @@ let port = process.env.PORT || 4000;
 // public
 // get user
 app.get('/', (req, res) => {
-    res.send('Hello World');
+    res.send('welcome World');
   });
   
 app.listen(port, () => console.log(`Server listening on port ${port}`));
